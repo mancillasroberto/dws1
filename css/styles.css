@@ -12,6 +12,7 @@ body{
 }
 .pages{
 	max-width:1120px;
+	height:100%;
 	margin:0 auto;
 	padding:0;
 	box-shadow:0 0 10px #777777;
@@ -124,6 +125,7 @@ nav a:focus{
 	color:#F1F1F1;
 	background-color:#29425D;
 	padding:0 10px;
+	border-radius:10%;
 }
 
 
