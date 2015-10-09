@@ -1,0 +1,167 @@
+/******* BASIC ELEMENTS *******/
+
+body{
+	margin:0;
+	padding:0;
+	color:#404040;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style:normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.pages{
+	max-width:1120px;
+	margin:0 auto;
+	padding:0;
+	box-shadow:0 0 10px #777777;
+}
+#wrapper{
+	background-color:#d9d9d9;
+}
+#pageContent{
+	background-color:#F1F1F1;
+}
+
+
+/******* Header - Nav *******/
+
+
+header{
+	background-color:#29425D;
+}
+header h1{
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#fff;
+	margin:0;
+	padding:20px;
+}
+header p{
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	color:#C0C7CE;
+	margin:10px 20px;
+}
+nav{
+	background-color:#24384E;
+}
+nav ul{
+	margin:0;
+	padding:20px;
+}
+nav ul li{
+	display:inline-block;
+	border-right:1px solid #5F5F5F;
+}
+nav ul li.first{
+	border-left:1px solid #5F5F5F;
+}
+nav ul li a{
+	display:block;
+	color:#98d0f1;
+	padding:0 10px;
+	text-decoration:none;
+}
+nav a:hover,
+nav a:active,
+nav a:focus{
+	color: #fff;
+}
+
+
+/******* Mainbody *******/
+
+
+#mainBody{
+	padding:20px;
+}
+#mainBody article{
+	border-bottom:2px solid #CCCCCC;
+}
+#gallery{
+	color:#98d0f1;
+	text-shadow:2px 2px 3px #111111;
+}
+
+
+/******* Sidebar *******/
+
+
+.sidebar{
+	background-color:#000;
+}
+.sidebar .header{
+	font-weight:600;
+	background-color:#98d0f1;
+	text-align:center;
+	border-bottom:2px solid #F1F1F1;
+}
+.sidebar ol{
+	padding:20px 40px;
+	color:#F1F1F1;
+}
+.sidebar ol.nostyle{
+	list-style-type:none;
+}
+.sidebar ol.nostyle li{
+	text-align:center;
+}
+.sidebar ol li{
+	border-bottom:1px solid #4E4E4E;
+}
+.sidebar ol li a{
+	color:#98d0f1;
+	text-decoration:none;
+}
+.sidebar a:hover,
+.sidebar a:active,
+.sidebar a:focus{
+	color: #fff;
+}
+.box{
+	font-weight:600;
+	color:#F1F1F1;
+	background-color:#29425D;
+	padding:0 10px;
+}
+
+
+/******* Footer *******/
+
+footer{
+	padding:20px;
+	background-color:#000;
+	color:#fff;
+}
+footer p,
+footer h3,
+footer ul,
+footer ul li{
+	display:inline-block;
+}
+footer ul{
+	padding:0;
+}
+footer ul li{
+	list-style:none;
+}
+footer ul li a{
+	color:#98d0f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
