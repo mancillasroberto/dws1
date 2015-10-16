@@ -1,5 +1,4 @@
-/******* BASIC ELEMENTS *******/
-
+/* Basic Elements */
 body{
 	margin:0;
 	padding:0;
@@ -7,134 +6,178 @@ body{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight:400;
 	font-style:normal;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.6;
 }
-.pages{
+.center-page{
 	max-width:1120px;
-	height:100%;
 	margin:0 auto;
 	padding:0;
-	box-shadow:0 0 10px #777777;
-}
-#wrapper{
-	background-color:#d9d9d9;
-}
-#pageContent{
-	background-color:#F1F1F1;
+	overflow:auto;
+	/*border:1px solid black;*/
 }
 
-
-/******* Header - Nav *******/
-
-
+/* Header */
+#top{
+	background-color:#000;
+	background:linear-gradient(#DEDEDE,#AFAFAF);
+}
 header{
-	background-color:#29425D;
+	min-height:58px;
 }
 header h1{
-	font-family: 'Lato', sans-serif;
-	font-weight:700;
-	color:#fff;
 	margin:0;
-	padding:20px;
-}
-header p{
-	font-family: 'Lato', sans-serif;
-	font-weight:300;
-	color:#C0C7CE;
-	margin:10px 20px;
+	padding:0;
+	float:left;
 }
 nav{
-	background-color:#24384E;
+	float:right;
 }
 nav ul{
 	margin:0;
-	padding:20px;
+	padding:0;
 }
 nav ul li{
 	display:inline-block;
-	border-right:1px solid #5F5F5F;
+	list-style:none;
+	border-right:1px solid #ADAAAA;
 }
 nav ul li.first{
-	border-left:1px solid #5F5F5F;
+	border-left:1px solid #ADAAAA;
 }
 nav ul li a{
 	display:block;
-	color:#98d0f1;
 	padding:0 10px;
+	line-height:58px;
 	text-decoration:none;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	color:#3e3e3e;
 }
 nav a:hover,
 nav a:active,
 nav a:focus{
 	color: #fff;
 }
-
-
-/******* Mainbody *******/
-
-
-#mainBody{
-	padding:20px;
+/* Feature */
+#feature{
+	width:100%;
+	
+	/*background:url("../images/feature-bg.jpg");
+	background-repeat:no-repeat;*/
+	
+	background-color:#fff;
+	background:linear-gradient(#4E89D2,#284B69);
 }
-#mainBody article{
-	border-bottom:2px solid #CCCCCC;
+.container{
+	/*width:800px;*/
+	width:70%;
+	margin: 0 auto;
+	padding:50px 0;
+	text-align:center;
+}
+/* Main Body */
+#social{
+	background:#E6E6E6;
+}
+#social ul li{
+	display:inline-block;
+	padding:5px;
+}
+#social ul li img{
+	opacity:.5;
+}
+#main{
+	/*width:810px;*/
+	width:72%;
+	float:left;
+	/*margin:10px;*/
+	margin:1%;
+}
+#main figure{
+	float:left;
+	margin:0 10px 0 0;
+}
+#main article h2{
+							/* Make Line */
+	background-image:url("../images/line.png");
+							/* Make Line */
+	background-repeat:repeat-x;
+	background-position:center;
+}
+#main article h2 span{
+	background:#fff;
+	padding:0 10px 0 0;
+}
+#sidebar{
+	/*width:270px;*/
+	width:24%;
+	/*margin:10px;*/
+	margin:1%;
+	float:left;
+	background:#E4E4E4;
+}
+#sidebar section{
+	min-height:200px;
+	padding:10px;
+}
+#sidebar section ol{
+	background:#fff;
+	border-radius:4px;
+}
+#sidebar .one ol{
+	padding:0;
+}
+#sidebar .one ol li{
+	padding-right:10px;
+	list-style:none;
+	border-bottom:1px solid #e4e4e4;
+}
+#sidebar .two ol li{
+	padding:15px;
+}
+#sidebar ol li a{
+	display:block;
+	padding:15px 40px;
+	text-decoration:none;
+	background:url("../images/5.png");
+	background-repeat:no-repeat;
+	background-position:center right;
 }
 #gallery{
-	color:#98d0f1;
-	text-shadow:2px 2px 3px #111111;
+	background:#333;
 }
-
-
-/******* Sidebar *******/
-
-
-.sidebar{
-	background-color:#000;
+#gallery h3{
+	margin:0;
+	padding:0;
 }
-.sidebar .header{
-	font-weight:600;
-	background-color:#98d0f1;
-	text-align:center;
-	border-bottom:2px solid #F1F1F1;
-}
-.sidebar ol{
-	padding:20px 40px;
-	color:#F1F1F1;
-}
-.sidebar ol.nostyle{
-	list-style-type:none;
-}
-.sidebar ol.nostyle li{
-	text-align:center;
-}
-.sidebar ol li{
-	border-bottom:1px solid #4E4E4E;
-}
-.sidebar ol li a{
-	color:#98d0f1;
-	text-decoration:none;
-}
-.sidebar a:hover,
-.sidebar a:active,
-.sidebar a:focus{
-	color: #fff;
-}
-.box{
-	font-weight:600;
-	color:#F1F1F1;
-	background-color:#29425D;
+#gallery h3 span{
+	color:#333;
+	background:#EF4141;
 	padding:0 10px;
-	border-radius:10%;
 }
-
-
-/******* Footer *******/
-
+#gallery .column{
+	/*width:330px;*/
+	width:29%;
+	float:left;
+	/*margin:10px;*/
+	margin:1%;
+}
+#gallery figure{
+	margin:0;
+}
+#gallery figure a{
+	display:block;
+}
+#gallery img{
+	width:100%;
+	height:auto;
+}
+#bottom{
+	margin-top:40px;
+}
 footer{
-	padding:20px;
-	background-color:#000;
-	color:#fff;
+	clear:both;
 }
 footer p,
 footer ul,
