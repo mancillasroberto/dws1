@@ -2,109 +2,139 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<title>eSports - competitive gaming</title>
+		<title>Competitive Gaming</title>
 		<link href="css/styles.css" rel="stylesheet"/>
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	</head>
-	<body id="frontpage">
-		<div id="top">
-			<header class="center-page">
-				<h1>eSports</h1>
-				<nav>
-					<ul>
-						<li class="first"><a href="#tournaments">Tournaments</a></li>
-						<li><a href="#rise">Rise of Global eSports</a></li>
-						<li><a href="#images">Gallery</a></li>
-					</ul>
-				</nav>
+	<body>
+		<div id="bg" class="center-page">
+			<header>
+				<h1>Competitive Gaming</h1>
 			</header>
-		</div>
-		<div id="feature">
-			<div class="container">
-				<h1>The evolution of gaming</h1>
-				<p>Tournament info will go here.</p>
-			</div>
-		</div>
-		<div id="social">
-			<ul class="center-page">
-				<li><img src="images/12.png" alt=""/></li>
-				<li><img src="images/11.png" alt=""/></li>
-				<li><img src="images/10.png" alt=""/></li>
-				<li><img src="images/7.png" alt=""/></li>
-			</ul>
-		</div>
-		<div id="content" class="center-page">
-			<section id="main">
-				<h1>The evolution of <strong>eSports</strong></h1>
-				<p>eSports (also known as eSports, e-sports, competitive gaming, electronic sports, or progaming in Korea) is a term for organized multiplayer video game competitions, particularly between professional players. The most common video game genres associated with electronic sports are real-time strategy, fighting, first-person shooter, and multiplayer online battle arena.</p>
+			<!-- Main Navigation -->
+			<nav>
+				<ul>
+					<li class="first"><a href="#tournaments" class="tournaments">Tournaments</a></li>
+					<li><a href="#tableinfo" class="global">Tournament Dates</a></li>
+					<li><a href="#gallery" class="gallery">Gallery</a></li>
+					<li><a href="#contact" class="contact">Contact</a></li>
+				</ul>
+			</nav>
+			<!-- Main Content -->
+			<section>
+				<h2 id="tournaments">Learn more about the history of eSports and competitive gaming!</h2>
+				<div id="citation">
+					<p>Wikipedia</p>
+				</div>
+				<figure>
+					<img src="images/rb_8.jpg" alt=""/>
+					<figcaption>
+						<p>Bomber, just moments after winning his first major Red Bull tournament.</p>
+					</figcaption>
+				</figure>
 				<article>
-					<h2 id="tournaments"><span>Video Games and eSports</span></h2>
-					<figure>
-						<img src="images/dota.jpg" alt=""/>
-					</figure>
-					<h3>Tournaments</h3>
-					<p>In the second decade of the 21st century, eSports has grown <em>tremendously</em>, incurring a large increase in both viewership and prize money.[32][33] Although large tournaments were founded before the 21st century, the number and scope of tournaments has increased significantly, going from about 10 tournaments in 2000 to about 260 in 2010.[11] Many successful tournaments were founded during this period, including the World Cyber Games, the Intel Extreme Masters, and Major League Gaming.</p>
-					<a href="#">read more...</a>
+					<p><em>Esports</em> (also known as eSports, e-sports, competitive gaming, electronic sports, or progaming in Korea) is a term for organized multiplayer video game competitions, particularly between professional players. The most common video game genres associated with electronic sports are real-time strategy, fighting, first-person shooter, and multiplayer online battle arena. Tournaments such as The International Dota 2 Championships, the League of Legends World Championship, the Battle.net World Championship Series, the Evolution Championship Series, the Intel Extreme Masters, provide both live broadcasts of the competition, and cash prizes to competitors.</p>
+					<p>Although organized competitions have long been a part of video game culture, competitions have seen a large surge in popularity from the late 2000s and early 2010s. While competitions around 2000 were largely between amateurs, the proliferation of professional competitions and growing viewership now supports a significant number of professional players and teams,[1] and many video game developers now build features into their games designed to facilitate such competition.</p>
+					<p>The genre of fighting games and arcade fighters have also been popular in amateur tournaments, although the fighting game community has often distanced themselves from the eSports label.[2] In 2012, the most popular titles featured in professional competition were the multiplayer online battle arena games Dota 2, League of Legends, and the real time strategy game StarCraft II.[3] Shooting games like Counter Strike, Team Fortress 2,and Call of Duty have enjoyed some success as eSports, although their viewer numbers have remained below those of their competitors.[4]</p>
+					<table id="tableinfo">
+					  <tr class="head">
+						<th></th>
+						<th>Orlando</th>
+						<th>New York</th>		
+						<th>Los Angeles</th>
+					  </tr>
+					  <tr>
+						<th>Halo 5</th>
+						<td>11-6-15</td>
+						<td>12-29-15</td>		
+						<td>1-17-16</td>
+					  </tr>
+					  <tr class="even">
+						<th>COD</th>
+						<td>11-13-15</td>
+						<td>12-29-15</td>		
+						<td>2-17-16</td>
+					  </tr>
+					  <tr>
+						<th>Gears of War</th>
+						<td>11-20-15</td>
+						<td>12-29-15</td>		
+						<td>3-17-16</td>
+					  </tr>
+					</table>
 				</article>
-				<article>
-					<h2 id="rise"><span>Top Stories</span></h2>
-					<figure>
-						<img src="images/space_invaders.jpg" alt=""/>
-					</figure>
-					<h3>Rise of Global eSports</h3>
-					<p>Esports tournaments are almost always physical events in which occur in front of a live audience. The tournament may be part of a larger gathering, such as Dreamhack, or the competition may be the entirety of the event, like the World Cyber Games.</p>
-					<a href="#">read more...</a>
-				</article>
+				<aside>
+					<div>
+						<h3 id="gallery">Red Bull Gallery</h3>
+						<figure>
+							<img src="images/rb_1.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_2.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_3.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_4.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_5.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_6.jpg" alt=""/>
+						</figure>
+						<figure>
+							<img src="images/rb_7.jpg" alt=""/>
+						</figure>
+					</div>
+					<div>
+						<h2><span>Top eSport Games</span></h2>
+						<ol>
+							<li>League of Legends</li>
+							<li>Dota 2</li>
+							<li>Counter Strike:Global Offensive</li>
+							<li>Call of Duty:Black Ops 3</li>
+						</ol>
+					</div>
+				</aside>
 			</section>
-			<aside id="sidebar">
-				<section class="sec one">
-					<h2><span>eSport Communities</span></h2>
-					<ol>
-						<li><a href="http://www.majorleaguegaming.com/"><abbr title="Major League Gaming">MLG</abbr></a></li>
-						<li><a href="http://www.progamingleague.com/"><abbr title="Pro Gaming League">PGL</abbr></a></li>
-						<li><a href="http://www.eslgaming.com/"><abbr title="Electronic Sports League">ESL</abbr></a></li>
-					</ol>
-				</section>
-				<section class="sec two">
-					<h2><span>Top eSport Games</span></h2>
-					<ol>
-						<li>League of Legends</li>
-						<li>Dota 2</li>
-						<li>Counter Strike:Global Offensive</li>
-						<li>Call of Duty:Black Ops 3</li>
-					</ol>
-				</section>
-			</aside>
-		</div>
-		<div id="gallery">
-			<div class="center-page">
-				<h3 id="images"><span>Gallery</span></h3>
-				<div class="column">
-					<figure>
-						<a href="images/rb_1.jpg"><img src="images/rb_1.jpg" alt="Competitor on main stage" width="500" height="333"/></a>
-					</figure>
+			<form action="#" method="post">
+				<h1 id="contact">Sign up for our monthly newsletter</h1>
+				<h2>Be the first to get all the latest news about competitive gaming and anything eSports related!</h2>
+				<div>
+					<label for="name" class="title">Username:</label>
+					<input type="text" id="username" name="username" required="required" placeholder="username"/> 
 				</div>
-				<div class="column">
-					<figure>
-						<a href="images/rb_2.jpg"><img src="images/rb_2.jpg" alt="Crowd of people" width="500" height="333"/></a>
-					</figure>
+				<div>
+					<label for="email" class="title">Email:</label>
+					<input type="email" id="email" name="email" required="required" placeholder="username@email"/> 
 				</div>
-				<div class="column">
-					<figure>
-						<a href="images/rb_3.jpg"><img src="images/rb_3.jpg" alt="Interview with a competitor" width="500" height="333"/></a>
-					</figure>
+				<div>
+					Gender:
+					<input type="radio" name="gender" id="male" value="m"/>
+					<label for="male">M</label>
+					<input type="radio" name="gender" id="female" value="f"/>
+					<label for="female">F</label><br/>
 				</div>
-			</div>
-		</div>
-		<div id="bottom">
-			<footer class="center-page">
-				<p>&copy; 2015 eSports - resources</p>
+				<div>
+					<p>Let us know how you feel</p>
+					<textarea name="comments">Enter you comments here...</textarea>
+				</div>
+				<div>
+					<input type="submit" value="Sign Up" id="submit"/>
+				</div>
+			</form>
+			<footer>
+				<p>&copy; Copyright 2015 - Resources</p>
 				<ul>
 					<li><a href="http://www.redbull.com/us/en/esports/stories/1331744313463/the-lighter-side-of-red-bull-battle-grounds">Red Bull</a></li>
 					<li><a href="https://en.wikipedia.org/wiki/Esports#/">Wikipedia</a></li>
 				</ul>
-			</footer
+			</footer>
 		</div>
 	</body>
 </html>
+
+
